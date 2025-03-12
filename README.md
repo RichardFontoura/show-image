@@ -24,6 +24,8 @@ The **Show Images** module allows users to display images more easily in Foundry
    - Select a user from the dropdown menu.
    - Enter the image link in the text field or drag and drop an image.
    - Click "Send Image Privately" to send the image to the selected user or "Send to Everyone" to share with all players.
+  
+   ![show-message](https://github.com/user-attachments/assets/25adfcdb-7bbf-4baf-b3d6-a5dd09972b17)
 
 ## Error Messages
 

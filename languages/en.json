@@ -1,0 +1,14 @@
+{
+    "module_start": "Show Image: starting...",
+    "select_user": "Select user:",
+    "send_image": "Send the Image Privately",
+    "show_all": "Show for Everyone",
+    "close": "Close",
+    "image_link_error": "Please enter an image link.",
+    "button_deactivated": "Button deactivated!",
+    "image": "Image",
+    "image_close": "Image Closed",
+    "add_image": "Add Image",
+    "insert_image": "Insert Image",
+    "no_image_to_send": "Error: No image selected for sending"
+}

@@ -1,0 +1,36 @@
+{
+    "id": "show-image",
+    "name": "show-image",
+    "title": "Show Images",
+    "description": "Módulo exibe images mais facilmente no Foundry VTT.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "lobowarewolf"
+        }
+    ],
+    "compatibility": {
+        "minimum": "10",
+        "verified": "12",
+        "maximum": "12"
+    },
+    "esmodules": [
+        "main.js"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        },
+        {
+            "lang": "pt-BR",
+            "name": "Português (Brasil)",
+            "path": "languages/pt-BR.json"
+        }
+    ],
+    "socket": true,
+    "url": "https://github.com/RichardFontoura/show-image",
+    "manifest": "https://github.com/RichardFontoura/show-image/releases/download/1.0.0/module.json",
+    "download": "https://github.com/RichardFontoura/show-image/releases/download/1.0.0/show-image.zip"
+}

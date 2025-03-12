@@ -9,6 +9,6 @@
     "image": "Imagem",
     "image_close": "Imagem Fechada",
     "add_image": "Add Imagem",
-    "insert_image": "Insira a Imagem",
+    "insert_image": "Insira a Imagem [Copiar e Colar, Arrastar e Soltar, URL]",
     "no_image_to_send": "Erro: Nenhuma imagem selecionada para envio."
 }

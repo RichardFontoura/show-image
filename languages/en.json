@@ -9,6 +9,6 @@
     "image": "Image",
     "image_close": "Image Closed",
     "add_image": "Add Image",
-    "insert_image": "Insert Image",
+    "insert_image": "Insert Image [Copy and Paste, Drag and Drop, URL]",
     "no_image_to_send": "Error: No image selected for sending"
 }

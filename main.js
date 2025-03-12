@@ -165,7 +165,7 @@ Hooks.on("getSceneControlButtons", (controls) => {
               `;
 
         const dialog = new Dialog({
-          title: game.i18n.localize("send_image"),
+          title: game.i18n.localize("show_image"),
           content: contentHtml,
           buttons: {
             close: {

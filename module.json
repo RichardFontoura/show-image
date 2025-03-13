@@ -2,7 +2,7 @@
     "id": "show-image",
     "name": "show-image",
     "title": "Show Images",
-    "description": "Módulo exibe images mais facilmente no Foundry VTT.",
+    "description": "Module displays images more easily in Foundry VTT.",
     "version": "1.0.0",
     "authors": [
         {

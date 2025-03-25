@@ -3,17 +3,32 @@
     "name": "show-image",
     "title": "Show Images",
     "description": "Module displays images more easily in Foundry VTT.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
-            "name": "lobowarewolf"
+            "name": "lobowarewolf",
+            "url": "https://www.patreon.com/lobowerewolf"
         }
     ],
     "compatibility": {
-        "minimum": "10",
-        "verified": "12",
-        "maximum": "12"
+        "minimum": "12",
+        "verified": "12"
     },
+    "relationships": {
+        "requires": [
+            {
+                "id": "lobowerewolf-hub",
+                "type": "module",
+                "manifest": "https://github.com/RichardFontoura/lobowerewolf-hub/releases/download/1.0.0/module.json"
+            }
+        ]
+    },
+    "dependencies": [
+        {
+            "name": "lobowerewolf-hub",
+            "type": "module"
+        }
+    ],
     "esmodules": [
         "main.js"
     ],
@@ -31,6 +46,6 @@
     ],
     "socket": true,
     "url": "https://github.com/RichardFontoura/show-image",
-    "manifest": "https://github.com/RichardFontoura/show-image/releases/download/1.0.0/module.json",
-    "download": "https://github.com/RichardFontoura/show-image/releases/download/1.0.0/show-image.zip"
+    "manifest": "https://github.com/RichardFontoura/show-image/releases/download/1.0.1/module.json",
+    "download": "https://github.com/RichardFontoura/show-image/releases/download/1.0.1/show-image.zip"
 }

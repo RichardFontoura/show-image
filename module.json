@@ -1,51 +1,48 @@
 {
-    "id": "show-image",
-    "name": "show-image",
-    "title": "Show Images",
-    "description": "Module displays images more easily in Foundry VTT.",
-    "version": "1.0.2",
-    "authors": [
-        {
-            "name": "lobowarewolf",
-            "url": "https://www.patreon.com/lobowerewolf"
-        }
-    ],
-    "compatibility": {
-        "minimum": "12",
-        "verified": "12"
+  "id": "show-image",
+  "title": "Show Images",
+  "description": "Module displays images more easily in Foundry VTT.",
+  "version": "2.0.0",
+  "socket": true,
+  "authors": [
+    {
+      "name": "lobowarewolf",
+      "url": "https://www.patreon.com/lobowerewolf"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "lobowerewolf-hub",
+        "type": "module",
+        "manifest": "https://github.com/RichardFontoura/lobowerewolf-hub/releases/download/2.0.0/module.json"
+      }
+    ]
+  },
+  "dependencies": [
+    {
+      "name": "lobowerewolf-hub",
+      "type": "module"
+    }
+  ],
+  "esmodules": ["main.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
     },
-    "relationships": {
-        "requires": [
-            {
-                "id": "lobowerewolf-hub",
-                "type": "module",
-                "manifest": "https://github.com/RichardFontoura/lobowerewolf-hub/releases/download/1.0.1/module.json"
-            }
-        ]
-    },
-    "dependencies": [
-        {
-            "name": "lobowerewolf-hub",
-            "type": "module"
-        }
-    ],
-    "esmodules": [
-        "main.js"
-    ],
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "languages/en.json"
-        },
-        {
-            "lang": "pt-BR",
-            "name": "Português (Brasil)",
-            "path": "languages/pt-BR.json"
-        }
-    ],
-    "socket": true,
-    "url": "https://github.com/RichardFontoura/show-image",
-    "manifest": "https://github.com/RichardFontoura/show-image/releases/download/1.0.2/module.json",
-    "download": "https://github.com/RichardFontoura/show-image/releases/download/1.0.2/show-image.zip"
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "languages/pt-BR.json"
+    }
+  ],
+  "url": "https://github.com/RichardFontoura/show-image",
+  "manifest": "https://github.com/RichardFontoura/show-image/releases/download/2.0.0/module.json",
+  "download": "https://github.com/RichardFontoura/show-image/releases/download/2.0.0/show-image.zip"
 }

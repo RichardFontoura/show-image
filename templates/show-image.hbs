@@ -1,0 +1,50 @@
+<div class="show-image-content">
+  <div class="show-image-controls">
+    <div class="row">
+      <label for="user-select" style="white-space: nowrap;">
+        {{localize "select_user"}}
+      </label>
+      <select id="user-select">
+        {{#each users}}
+          <option value="{{this.id}}">{{this.name}}</option>
+        {{/each}}
+      </select>
+      <button id="btn-add-image" type="button">
+        {{localize "add_image"}}
+      </button>
+    </div>
+    <div class="row input-row">
+      <input
+        type="text"
+        id="image-url"
+        placeholder="{{localize 'insert_image'}}"
+      />
+    </div>
+  </div>
+
+  <div id="images-list" class="images-container">
+    {{#each images}}
+      <div class="image-box" data-index="{{@index}}">
+        <span>{{localize "image"}} {{math @index "+" 1}}</span>
+        <div class="image-preview">
+          <img src="{{this}}" class="thumb-image" />
+          <span class="image-link">{{this}}</span>
+        </div>
+        <button
+          class="btn-remove-image"
+          data-index="{{@index}}"
+          type="button"
+        >X</button>
+      </div>
+    {{/each}}
+  </div>
+
+  <div class="show-image-actions">
+    <button id="btn-show-image" type="button">
+      {{localize "send_image"}}
+    </button>
+    <button id="btn-show-all" type="button">
+      {{localize "show_all"}}
+    </button>
+  </div>
+</div>

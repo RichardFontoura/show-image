@@ -2,7 +2,7 @@
   "id": "show-image",
   "title": "Show Images",
   "description": "Module displays images more easily in Foundry VTT.",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "socket": true,
   "authors": [
     {
@@ -30,6 +30,7 @@
     }
   ],
   "esmodules": ["main.js"],
+  "styles": ["styles/show-image.css"],
   "languages": [
     {
       "lang": "en",
@@ -43,6 +44,6 @@
     }
   ],
   "url": "https://github.com/RichardFontoura/show-image",
-  "manifest": "https://github.com/RichardFontoura/show-image/releases/download/2.0.0/module.json",
-  "download": "https://github.com/RichardFontoura/show-image/releases/download/2.0.0/show-image.zip"
+  "manifest": "https://github.com/RichardFontoura/show-image/releases/download/3.0.0/module.json",
+  "download": "https://github.com/RichardFontoura/show-image/releases/download/3.0.0/show-image.zip"
 }

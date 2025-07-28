@@ -1,0 +1,162 @@
+.show-image-dialog .window-content {
+  width: auto !important;
+  max-width: 1000px;
+  min-width: 600px;
+  padding: 20px;
+}
+
+.show-image-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.show-image-controls .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.show-image-controls .input-row {
+  margin-top: 10px;
+}
+
+.show-image-controls .input-row input[type="text"] {
+  flex: 1;
+  min-width: 400px;
+  height: 36px;
+  line-height: 36px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.show-image-controls button {
+  flex: 0 0 auto;
+  font-size: 14px;
+  padding: 8px 16px;
+  height: 36px;
+  line-height: 20px;
+  min-width: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.show-image-controls label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.show-image-controls select {
+  padding: 6px 10px;
+  height: 36px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 150px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.image-box {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  min-height: 80px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-box > span {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.image-preview {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  overflow: hidden;
+}
+
+.image-link {
+  display: inline-block;
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  background-color: #f5f5f5;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+.btn-remove-image {
+  background: #ff4444;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  justify-self: end;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn-remove-image:hover {
+  background: #cc0000;
+}
+
+.thumb-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.show-image-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.show-image-actions button {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 120px;
+}

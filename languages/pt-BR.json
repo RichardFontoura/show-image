@@ -1,15 +1,17 @@
 {
-    "module_start": "Show Image: iniciando...",
-    "show_image": "Show Image",
-    "select_user": "Selecione o usuário:",
-    "send_image": "Enviar Imagem em Privido",
-    "show_all": "Enviar para Todos",
+  "show-image": {
+    "module-start": "Show Image: iniciando...",
+    "show-image": "Show Image",
+    "select-user": "Selecione o usuário:",
+    "send-image": "Enviar Imagem em Privido",
+    "show-all": "Enviar para Todos",
     "close": "Fechar",
-    "image_link_error": "Por favor, insira um link de imagem.",
-    "button_deactivated": "Botão desativado!",
+    "image-link-error": "Por favor, insira um link de imagem.",
+    "button-deactivated": "Botão desativado!",
     "image": "Imagem",
-    "image_close": "Imagem Fechada",
-    "add_image": "Add Imagem",
-    "insert_image": "Insira a Imagem [Copiar e Colar, Arrastar e Soltar, URL]",
-    "no_image_to_send": "Erro: Nenhuma imagem selecionada para envio."
+    "image-close": "Imagem Fechada",
+    "add-image": "Add Imagem",
+    "insert-image": "Insira a Imagem [Copiar e Colar, Arrastar e Soltar, URL]",
+    "no-image-to-send": "Erro: Nenhuma imagem selecionada para envio."
+  }
 }

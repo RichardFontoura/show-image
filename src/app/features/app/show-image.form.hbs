@@ -2,7 +2,7 @@
   <div class="show-image-controls">
     <div class="row">
       <label for="user-select" style="white-space: nowrap;">
-        {{localize "select_user"}}
+        {{localize "show-image.select-user"}}
       </label>
       <select id="user-select">
         {{#each users}}
@@ -10,22 +10,30 @@
         {{/each}}
       </select>
       <button id="btn-add-image" type="button">
-        {{localize "add_image"}}
+        {{localize "show-image.add-image"}}
       </button>
     </div>
     <div class="row input-row">
       <input
         type="text"
         id="image-url"
-        placeholder="{{localize 'insert_image'}}"
+        placeholder="{{localize 'show-image.insert-image'}}"
       />
+      <button
+        id="btn-file-picker"
+        type="button"
+        class="file-picker"
+        data-type="imagevideo"
+      >
+        <i class="fas fa-file-import fa-fw"></i>
+      </button>
     </div>
   </div>
 
   <div id="images-list" class="images-container">
-    {{#each images}}
+    {{#each imageUrl}}
       <div class="image-box" data-index="{{@index}}">
-        <span>{{localize "image"}} {{math @index "+" 1}}</span>
+        <span>{{localize "show-image.image"}} {{math @index "+" 1}}</span>
         <div class="image-preview">
           <img src="{{this}}" class="thumb-image" />
           <span class="image-link">{{this}}</span>
@@ -41,10 +49,10 @@
 
   <div class="show-image-actions">
     <button id="btn-show-image" type="button">
-      {{localize "send_image"}}
+      {{localize "show-image.send-image"}}
     </button>
     <button id="btn-show-all" type="button">
-      {{localize "show_all"}}
+      {{localize "show-image.show-all"}}
     </button>
   </div>
 </div>

@@ -160,3 +160,13 @@
   transition: all 0.2s;
   min-width: 120px;
 }
+
+.show-image-controls .input-row .file-picker {
+  min-width: 40px;
+  width: 40px;
+  height: 36px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

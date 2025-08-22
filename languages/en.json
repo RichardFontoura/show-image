@@ -1,15 +1,17 @@
 {
-    "module_start": "Show Image: starting...",
-    "show_image": "Show Image",
-    "select_user": "Select user:",
-    "send_image": "Send the Image Privately",
-    "show_all": "Show for Everyone",
+  "show-image": {
+    "module-start": "Show Image: module started...",
+    "show-image": "Show Image",
+    "select-user": "Select user:",
+    "send-image": "Send the Image Privately",
+    "show-all": "Show for Everyone",
     "close": "Close",
-    "image_link_error": "Please enter an image link.",
-    "button_deactivated": "Button deactivated!",
+    "image-link-error": "Please enter an image link.",
+    "button-deactivated": "Button deactivated!",
     "image": "Image",
-    "image_close": "Image Closed",
-    "add_image": "Add Image",
-    "insert_image": "Insert Image [Copy and Paste, Drag and Drop, URL]",
-    "no_image_to_send": "Error: No image selected for sending"
+    "image-close": "Image Closed",
+    "add-image": "Add Image",
+    "insert-image": "Insert Image [Copy and Paste, Drag and Drop, URL]",
+    "no-image-to-send": "Error: No image selected for sending"
+  }
 }

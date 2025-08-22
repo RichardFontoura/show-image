@@ -1,33 +1,47 @@
 # Show Images
 
-The **Show Images** module allows users to display images more easily in Foundry VTT. This module is especially useful for game masters who want to share images with players quickly.
+**Show Images** is a Foundry VTT module that makes it easy for Game Masters to share images with players.  
+
+## Requirements
+- Foundry VTT v13 or later  
+- Dependency: [LoboWerewolf Hub](https://github.com/RichardFontoura/lobowerewolf-hub/releases/download/3.0.0/module.json)  
+
+Only the GM can see and use the **Show Image** button.
+
+## Installation
+- **Manifest URL (recommended):**  
+  [module.json](https://github.com/RichardFontoura/show-image/releases/download/4.0.0/module.json)  
+- **ZIP download:**  
+  [show-image.zip](https://github.com/RichardFontoura/show-image/releases/download/4.0.0/show-image.zip)  
+
+Extract into your Foundry VTT modules folder and ensure the Hub module is installed and enabled.
+
+## How It Works
+- Registers a **Show Image** button in the Hub (visible only to GM).  
+- Clicking it opens a simple interface where the GM can:  
+  - Paste or drop image links  
+  - Send images privately to a specific player  
+  - Send images to all players in the scene  
 
 ## Features
+- Private or group image sharing  
+- Support for URL, copy/paste, and drag-and-drop  
+- Simple, direct UI  
 
-- **User Selection**: Allows the master to select a specific user to send the image privately.
-- **Add Images**: Users can insert image links or drag and drop images directly into the interface.
-- **Send Images**: Images can be sent to a specific user or to all players in the scene.
-- **User-Friendly Interface**: The interface is designed to be intuitive, with clear buttons and input fields.
+## Localization
+Available in **English (en)** and **Portuguese (pt-BR)**.  
+Translation contributions are welcome in the `languages/` folder.
 
-## How to Use
+## Development
+- Built with Node.js + NPM  
+- Commands:  
+  - `npm run build` → build into `dist/`  
+  - `npm run build:zip` → build and package for release  
 
-1. **Installation**:
-   - Download the module from the [GitHub repository].
-   - Extract the contents of the ZIP file into the modules folder of your Foundry VTT.
+## Troubleshooting
+- If the button doesn’t appear, check you’re logged in as GM and the Hub is active  
+- If images don’t show, confirm the link is accessible and not blocked by extensions  
 
-2. **Activation**:
-   - In Foundry VTT, go to the modules section and activate the **Show Images** module.
-
-3. **Usage**:
-   - After activating the module, a new button called "Show Image" will appear in the token control bar.
-   - Click the button to open the image sending interface.
-   - Select a user from the dropdown menu.
-   - Enter the image link in the text field or drag and drop an image.
-   - Click "Send Image Privately" to send the image to the selected user or "Send to Everyone" to share with all players.
-  
-   ![show-message](https://github.com/user-attachments/assets/25adfcdb-7bbf-4baf-b3d6-a5dd09972b17)
-
-## Error Messages
-
-- **Error: No image selected for sending**: This occurs when you try to send an image without adding any.
-- **Please enter an image link**: This happens when the image link input field is empty.
+## License & Credits
+- Author: [lobowarewolf](https://www.patreon.com/lobowarewolf)  
+- License: ISC  

@@ -253,17 +253,27 @@ export class ShowImageForm extends HandlebarsApplication {
     const imagesHtml = this.imageUrl
       .map(
         (link, idx) => `
-        <div>
+        <div class="show-image-chat-item">
           <strong>${l("image")} ${idx + 1}:</strong><br>
-          <img src="${link}" style="max-width:100%; height:auto;">
+          <img src="${link}" data-show-image="true" style="max-width:100%; height:auto; cursor:pointer;">
         </div>`
       )
       .join("");
 
-    void (ChatMessage as any).create({
+    const isAllSelected = selectedUserId === "ALL";
+
+    const messageData: any = {
       content: imagesHtml,
-      whisper: selectedUserId ? [selectedUserId] : [],
-    });
+      flags: { "show-image": { clickable: true } },
+    };
+
+    if (isAllSelected) {
+      messageData.whisper = [];
+    } else if (selectedUserId) {
+      messageData.whisper = [selectedUserId];
+    };
+
+    void ChatMessage.create(messageData);
   }
 
   private _onShowAll(_event: MouseEvent): void {

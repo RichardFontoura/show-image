@@ -5,6 +5,7 @@
         {{localize "show-image.select-user"}}
       </label>
       <select id="user-select">
+        <option class="all-option" value="ALL">{{localize "show-image.all-users"}}</option>
         {{#each users}}
           <option value="{{this.id}}">{{this.name}}</option>
         {{/each}}
@@ -35,7 +36,7 @@
       <div class="image-box" data-index="{{@index}}">
         <span>{{localize "show-image.image"}} {{math @index "+" 1}}</span>
         <div class="image-preview">
-          <img src="{{this}}" class="thumb-image" />
+          <img src="{{this}}" class="thumb-image" title="{{localize 'show-image.image'}}" />
           <span class="image-link">{{this}}</span>
         </div>
         <button

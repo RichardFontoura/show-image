@@ -59,7 +59,11 @@
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  min-width: 150px;
+  min-width: 180px;
+}
+
+img[data-show-image="true"] {
+  cursor: pointer;
 }
 
 .images-container {
@@ -169,4 +173,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+.show-image-controls select .all-option {
+  font-weight: bold;
 }

@@ -13,6 +13,13 @@
     "image-close": "Imagem Fechada",
     "add-image": "Add Imagem",
     "insert-image": "Insira a Imagem [Copiar e Colar, Arrastar e Soltar, URL]",
-    "no-image-to-send": "Erro: Nenhuma imagem selecionada para envio."
+    "no-image-to-send": "Erro: Nenhuma imagem selecionada para envio.",
+    "settings": {
+      "reloadNotice": "Configuração alterada. Recarregando...",
+      "allowPlayersToShareImages": {
+        "name": "Permitir que Jogadores compartilhem imagens",
+        "hint": "Autoriza usuários que não são Mestres (GM) a compartilhar imagens usando a ferramenta Show Image. Com esta opção ativada, jogadores podem enviar imagens no chat e abrir popouts de imagem. Desative para limitar o compartilhamento apenas aos GMs. A mudança exige recarregar a página."
+      }
+    }
   }
 }

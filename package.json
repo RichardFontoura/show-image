@@ -1,6 +1,6 @@
 {
   "name": "show-image",
-  "version": "4.0.0",
+  "version": "4.6.0",
   "description": "Module displays images more easily in Foundry VTT",
   "type": "module",
   "main": "dist/main.js",

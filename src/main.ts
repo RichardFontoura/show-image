@@ -1,8 +1,11 @@
-import { getModule, registerHandlebarsHelpers, i18nLocalize as l } from "@helpers";
+import { MODULE_ID ,getModule, registerHandlebarsHelpers, i18nLocalize as l } from "@helpers";
 import { ShowImageForm } from "app/features/app/ShowImageForm";
+import { SETTINGS_DATA_KEYS, registerSettings } from "app/core/services/register.service";
 
 Hooks.on("init", () => {
   registerHandlebarsHelpers();
+  registerSettings();
+  
   console.log(
     `%c
        _           _           _    _                             _  __ 
@@ -41,7 +44,7 @@ Hooks.once("setup", () => {
     title: "Show Image",
     icon: "fa-solid fa-image",
     button: true,
-    visible: (game as Game).user?.isGM ?? false,
+    visible: (game as Game).user?.isGM || ((game as Game).settings?.get(MODULE_ID, SETTINGS_DATA_KEYS.AllowPlayersToShareImages) ?? false),
     onClick: () => {
       new ShowImageForm().render(true);
     },

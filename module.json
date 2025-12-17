@@ -2,12 +2,12 @@
   "id": "show-image",
   "title": "Show Image",
   "description": "Module displays images more easily in Foundry VTT",
-  "version": "4.5.0",
+  "version": "4.6.0",
   "socket": true,
   "authors": [
     {
-      "name": "lobowarewolf",
-      "url": "https://www.patreon.com/lobowarewolf"
+      "name": "LoboWerewolf",
+      "url": "https://www.patreon.com/cw/LoboWerewolf"
     }
   ],
   "compatibility": {
@@ -44,6 +44,6 @@
     }
   ],
   "url": "https://github.com/RichardFontoura/show-image",
-  "manifest": "https://github.com/RichardFontoura/show-image/releases/download/4.5.0/module.json",
-  "download": "https://github.com/RichardFontoura/show-image/releases/download/4.5.0/show-image.zip"
+  "manifest": "https://github.com/RichardFontoura/show-image/releases/download/4.6.0/module.json",
+  "download": "https://github.com/RichardFontoura/show-image/releases/download/4.6.0/show-image.zip"
 }

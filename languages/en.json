@@ -13,6 +13,13 @@
     "image-close": "Image Closed",
     "add-image": "Add Image",
     "insert-image": "Insert Image [Copy and Paste, Drag and Drop, URL]",
-    "no-image-to-send": "Error: No image selected for sending"
+    "no-image-to-send": "Error: No image selected for sending",
+    "settings": {
+      "reloadNotice": "Settings changed. Reloading...",
+      "allowPlayersToShareImages": {
+        "name": "Allow Players to Share Images",
+        "hint": "Allow non-GM users to share images via the Show Image tool. When enabled, players can send images to chat and open image popouts. Disable to restrict sharing to GMs only. Changing this setting requires a page reload."
+      }
+    }
   }
 }

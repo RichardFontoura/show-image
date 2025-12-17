@@ -6,7 +6,9 @@ declare class LoboWerewolfHub {
 }
 
 declare global {
-  interface SettingConfig {}
+  interface SettingConfig {
+    "show-image.allowPlayersToShareImages": typeof Boolean;
+  }
 
   interface WerewolfHub {
     api?: {

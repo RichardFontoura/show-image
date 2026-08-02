@@ -2,7 +2,7 @@
   "id": "show-image",
   "title": "Show Image",
   "description": "Module displays images more easily in Foundry VTT",
-  "version": "4.6.0",
+  "version": "4.6.1",
   "socket": true,
   "authors": [
     {
@@ -12,23 +12,17 @@
   ],
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "relationships": {
     "requires": [
       {
         "id": "lobowerewolf-hub",
         "type": "module",
-        "manifest": "https://github.com/RichardFontoura/lobowerewolf-hub/releases/download/3.0.1/module.json"
+        "manifest": "https://github.com/RichardFontoura/lobowerewolf-hub/releases/download/4.0.1/module.json"
       }
     ]
   },
-  "dependencies": [
-    {
-      "name": "lobowerewolf-hub",
-      "type": "module"
-    }
-  ],
   "esmodules": ["main.js"],
   "styles": ["styles/app/show-image.form.css"],
   "languages": [
@@ -44,6 +38,6 @@
     }
   ],
   "url": "https://github.com/RichardFontoura/show-image",
-  "manifest": "https://github.com/RichardFontoura/show-image/releases/download/4.6.0/module.json",
-  "download": "https://github.com/RichardFontoura/show-image/releases/download/4.6.0/show-image.zip"
+  "manifest": "https://github.com/RichardFontoura/show-image/releases/download/4.6.1/module.json",
+  "download": "https://github.com/RichardFontoura/show-image/releases/download/4.6.1/show-image.zip"
 }
